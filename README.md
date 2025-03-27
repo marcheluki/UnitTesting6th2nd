@@ -1,1 +1,2 @@
-# UnitTesting6th2nd
+# UnitTesting
+Simple Application using unit testing with JUnit
