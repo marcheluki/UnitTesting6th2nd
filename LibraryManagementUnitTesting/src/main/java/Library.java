@@ -16,7 +16,9 @@ public class Library {
     }  
   
     public void addBook(Book book) {  
-        books.add(book);  
+        if (!books.contains(book)) { // Check if the book is already in the list
+            books.add(book);  
+        }  
     }  
   
     public void removeBook(Book book) {  
@@ -71,4 +73,4 @@ public class Library {
     public List<Patron> listPatrons() {  
         return patrons;  
     }  
-}  
+}
